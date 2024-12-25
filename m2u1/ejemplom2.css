@@ -1,0 +1,53 @@
+ /* font-family: "Open Sans", serif;
+ font-family: "Playwrite IE Guides", serif;
+  */
+
+ #caja {
+     width: 300px;
+     height: 300px;
+     background: rgb(238, 72, 17);
+     background: linear-gradient(90deg, rgba(238, 72, 17, 1) 27%, rgba(187, 227, 16, 1) 100%);
+     padding: 30px;
+     font-family: Cambria, Cochin;
+     border-radius: 30px 0px 50px 25px;
+     box-shadow: 2px 27px 74px 0px rgba(0, 0, 0, 0.75);
+     border: 2px;
+     border-top: 10px dotted #1d0c09;
+     border-bottom: 10px double #ff6550;
+ }
+
+
+ .texto {
+     background-color: rgb(223, 151, 43);
+     column-count: 5;
+     column-gap: 60px;
+     padding: 30px;
+     border-top: 10px double #1d0c09;
+     border-bottom: 10px double #120301;
+
+ }
+
+ .texto p {
+     margin: 0;
+ }
+
+ h1 {
+     font-family: "Playwrite IE Guides", serif;
+ }
+
+ h2,
+ p {
+     font-family: "Open Sans", serif;
+ }
+
+ h3 {
+     font-family: "Open Sans", serif;
+     text-decoration: 4px 4px 2px rgba(0, 0, 0, 0.6);
+ }
+
+ .texto2 {
+     background-color: rgb(175, 16, 82);
+     column-count: 3;
+     column-gap: 60px;
+     padding: 30px;
+ }
