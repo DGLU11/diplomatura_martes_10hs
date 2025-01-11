@@ -1,0 +1,36 @@
+.contenedor {
+    background-color: rgb(238, 238, 245);
+    display: flexbox;
+    flex-direction: columns;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.cuadro {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo {
+    background-color: red;
+    margin-right: left;
+}
+
+
+
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
