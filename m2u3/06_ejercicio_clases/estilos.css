@@ -1,0 +1,112 @@
+body {
+    background-color: #332F29;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #8FA68E;
+    padding: 20px;
+
+}
+
+.holder {
+    display: flex;
+}
+
+nav {
+    background-color: #C0392B;
+    width: 30%;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+main {
+    width: 40%;
+    background-color: #F7DC6F;
+}
+
+aside {
+    background-color: #1ABC9C;
+    width: 30%;
+}
+
+footer {
+    background-color: #CCC59E;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    }
+
+body {
+    background-color: #F7DC6F;
+}
+
+header {
+    text-align: center;
+}
+
+.holder {
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 600px;
+    border-bottom: #332F29;
+}
+
+nav ul {
+    width: 600px;
+     margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    columns: 10px;
+    justify-content: center;
+
+}
+
+main {
+    width: 600px;
+    border-bottom: 2px solid black;
+    display: flex;
+text-wrap: 10px;
+    text-align: justify;
+
+
+}
+
+aside {
+    background-color: aqua;
+    width: 600px;
+    display: flexbox;
+    display: inline-flex;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+h3{
+    text-align: justify;
+}
+footer {
+    background-color: #c7aa04;
+    text-align: center;
+
+}
