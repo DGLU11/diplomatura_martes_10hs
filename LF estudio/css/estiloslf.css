@@ -1,0 +1,210 @@
+ /*
+     "Noto Serif", serif;
+     */
+
+ body {
+     font-family: "Noto Serif", serif;
+     font-size: 13px;
+     line-height: 20px;
+
+
+ }
+
+ header {
+     background-color: rgb(248, 248, 243);
+     padding: 16px;
+     
+    
+ }
+
+ header h1 {
+     color: rgb(173, 93, 17);
+     font-size: 30px;
+     font-weight: 100;
+     font-style: normal;
+     display: inline-block;
+     position: relative;
+     bottom: 35px;
+     margin-left: 10px;
+ }
+
+ nav {
+     background-color: rgb(151, 87, 34);
+     margin-bottom: 20px;
+     font-family: sans-serif;
+     font-size: small;
+
+ }
+
+ nav ul {
+
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     color: white;
+
+ }
+
+ nav ul li {
+
+     flex-grow: 1;
+     padding: 3px 6px;
+     display: block;
+     text-align: center;
+
+ }
+
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+     display: block;
+     text-align: center;
+
+ }
+
+ nav ul li a:hover {
+     text-decoration: none;
+     font-weight: bold;
+
+ }
+
+ nav ul li a.activo {
+     background-color: rgb(112, 38, 4);
+
+ }
+
+
+ footer {
+     background-color: rgb(250, 227, 122);
+     clear: both;
+     color: rgb(14, 10, 0);
+     font-size: small;
+     text-align: center;
+     padding: 5px 0;
+     margin-top: 20px;
+ }
+
+ .holder {
+     max-width: 960px;
+     margin: 0 auto;
+ }
+
+ .homeimg{
+    max-width: 700px; 
+}
+ h2 {
+     color: brown;
+     font-weight: 400;
+ }
+
+ .bienvenidos {
+     width: 50%;
+     padding-right: 10px;
+     box-sizing: border-box;
+ }
+
+ .testimonios {
+     width: 50%;
+     padding-right: 10px;
+     text-align: center;
+     box-sizing: border-box;
+ }
+
+ testimonios.autor {
+     font-style: italic;
+     text-align: justify;
+     font-size: small;
+     display: block;
+     margin: 10px;
+ }
+
+ .columnas {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .nuestra historia p {
+     font-size: 14px;
+     text-align: justify;
+ }
+
+ .personas {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .persona {
+     border: 1px;
+     border-radius: 5px;
+     width: 18%;
+     text-align: center;
+     padding: 13px;
+     box-sizing: border-box;
+
+ }
+
+ .persona img {
+     border-radius: 50%;
+     max-width: 80%;
+
+ }
+
+ .persona h5 {
+     margin: 0;
+     font-weight: normal;
+     color: black;
+     font-size: medium;
+     font-style: normal;
+     font-style: italic;
+ }
+
+ .persona h4 {
+     margin: 0;
+     font-weight: normal;
+     font-size: 15px;
+     color: rgb(124, 68, 16);
+
+ }
+
+ .persona p {
+     font-size: 12px;
+     text-align: center;
+ }
+
+ .servicio  {
+    border: 3px solid chocolate;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.info h4{
+   
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(124, 68, 16);
+
+}
+
+.info p{
+    font-size: 12px;
+    margin: 5px;
+    font-weight: normal;
+    
+}
+
+.servicio img{
+    border-radius: 10px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
