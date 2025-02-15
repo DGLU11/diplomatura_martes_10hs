@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css"> 
+</head>
+<body>
+
+  <div class="cuadrados">
+    <div class="cuadrado rojo" onclick="cambiarFondo('red')"></div>
+    <div class="cuadrado verde" onclick="cambiarFondo('green')"></div>
+    <div class="cuadrado azul" onclick="cambiarFondo('blue')"></div>
+    <div class="cuadrado amarillo" onclick="cambiarFondo('yellow')"></div>
+    <div class="cuadrado rosa" onclick="cambiarFondo('pink')"></div>
+  </div>  
+
+  <script>
+    function cambiarFondo(color) {
+        document.body.style.backgroundColor = color;
+    }
+  </script>
+  
+</body>
+</html>

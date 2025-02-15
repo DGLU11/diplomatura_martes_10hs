@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+.contenedor {
+    background: white;
+    padding: 20px;
+       text-align: center;
+}
+
+.contador {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contador span {
+    color: #80858b;
+}

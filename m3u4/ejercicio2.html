@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+    
+</head>
+<body>
+
+    <textarea id="texto" cols="30" rows="10"></textarea>
+    <div>Caracteres: <span id="contador">0</span></div>
+<script>
+    const texto = document.getElementById("texto");
+const contador = document.getElementById("contador");
+
+texto.addEventListener("keyup", () => {
+    contador.innerText = texto.value.length;
+});
+</script>
+</body>
+</html>
