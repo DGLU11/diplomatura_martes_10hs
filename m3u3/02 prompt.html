@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 1.M3U3</title>
+</head>
+
+<body>
+  <script>
+       const distancia = (prompt('Ingrese la distancia en metros:', ''));
+   
+    let mensaje = " medios de transporte";
+
+    if (distancia < 0) {
+      mensaje = "Ingrese la distancia en metros.";
+    } else if (distancia < 1000) {
+      mensaje = "El medio de transporte recomendado: a pie.";
+    } else if (distancia < 10000) {
+      mensaje = "El medio de transporte recomendado: bicicleta.";
+    } else if (distancia < 30000) {
+      mensaje = "El medio de transporte recomendado: colectivo.";
+    } else if (distancia < 100000) {
+      mensaje = "El medio de transporte recomendado: auto.";
+    } else {
+      mensaje = "El medio de transporte recomendado: avión.";
+    }
+   
+    console.log(`Tu distancia es ${distancia} metros. ${mensaje}`);
+    
+    document.write(`Tu distancia es ${distancia} metros.${mensaje}`);
+  </script>
+</body>
+
+</html>
