@@ -1,12 +1,12 @@
-import Nav from "./Nav";
+
 
 const Header = (props) => {
     return (
         <>
             <header>
                 <div className="holder">
-                    <img 
-                        src="img/public/img/logolfr-01.png"  width="100" alt="estudioLF" 
+                    <img
+                        src="public/img/logolfr-01.png" width="100" alt="estudioLF" 
                     />
                     <h2>Estudio de arquitectura</h2>
                     <p>

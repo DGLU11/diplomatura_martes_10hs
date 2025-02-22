@@ -5,12 +5,12 @@ const Nav = (props) => {
         <nav>
             <div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">QuienesSomos</Link></li>
-                    <li><Link to="/">Servicios</Link></li>
-                    <li><Link to="/">Obras</Link></li>
-                    <li><Link to="/">Galeria</Link></li>
-                    <li><Link to="/">Contacto</Link></li>
+                    <li><Link to="/Home">Home</Link></li>
+                    <li><Link to="/QuienesSomos">QuienesSomos</Link></li>
+                    <li><Link to="/Servicios">Servicios</Link></li>
+                    <li><Link to="/Obras">Obras</Link></li>
+                    <li><Link to="/Galeria">Galeria</Link></li>
+                    <li><Link to="/Contacto">Contacto</Link></li>
                 </ul>  
             </div>
         </nav>
