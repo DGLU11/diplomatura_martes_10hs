@@ -1,3 +1,5 @@
+import "./../styles/quienessomos.css";
+
 const QuienesSomos = (props) => {
     return (
         <div>

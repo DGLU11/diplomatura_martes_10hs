@@ -1,3 +1,5 @@
+import "./../styles/obras.css";
+
 const Obras = (props) => {
     return (
         <div>

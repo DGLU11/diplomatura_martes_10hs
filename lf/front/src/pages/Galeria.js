@@ -1,3 +1,5 @@
+import "./../styles/galeria.css";
+
 const Galeria = (props) => {
     return (
         <div>

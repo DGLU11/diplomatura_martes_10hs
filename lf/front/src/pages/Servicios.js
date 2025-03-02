@@ -1,3 +1,4 @@
+import "./../styles/servicios.css";
 
 const Servicios = (props) => {
     return (
