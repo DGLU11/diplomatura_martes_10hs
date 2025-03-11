@@ -7,7 +7,7 @@ const Obras = (props) => {
             <main className="holder">
               
                 <div className="lugares">
-                    <img src="public/img/galeria/img1.jpg" alt="interior fresco" />
+                    <img src="img/galeria/img1.jpg" alt="interior fresco" />
                     <div className="info">
                         <h4>Carilo 2025</h4>
                         <p>Esta obra fue realizada con los ingenieros utilizando cajones y diques de contención. Los cajones son
@@ -27,7 +27,7 @@ const Obras = (props) => {
 
                 
                 <div className="lugares">
-                    <img src="public/img/galeria/img2.jpg" alt="baño minimalista" />
+                    <img src="img/galeria/img2.jpg" alt="baño minimalista" />
                     <div className="info">
                         <h4>Arenales</h4>
                         <p>Esta obra fue realizada con los ingenieros utilizando cajones y diques de contención. Los cajones son
@@ -47,7 +47,7 @@ const Obras = (props) => {
 
         
                 <div className="lugares">
-                    <img src="public/img/galeria/img4.jpg" alt="moderno" />
+                    <img src="img/galeria/img4.jpg" alt="moderno" />
                     <div className="info">
                         <h4>Ing. Maschwitz</h4>
                         <p>Esta obra fue realizada con los ingenieros utilizando cajones y diques de contención. Los cajones son
@@ -67,7 +67,7 @@ const Obras = (props) => {
 
             
                 <div className="lugares">
-                    <img src="public/img/galeria/img3.jpg" alt="livingmar" />
+                    <img src="img/galeria/img3.jpg" alt="livingmar" />
                     <div className="info">
                         <h4>Cardales</h4>
                         <p>Esta obra fue realizada con los ingenieros utilizando cajones y diques de contención. Los cajones son

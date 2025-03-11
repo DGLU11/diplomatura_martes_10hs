@@ -29,7 +29,7 @@ const QuienesSomos = (props) => {
                     <div className="personas">
                 
                         <div className="persona">
-                            <img src="public/img/nosotros/nosotros1.jpg" alt="Ana Rubio" />
+                            <img src="img/nosotros/nosotros1.jpg" alt="Ana Rubio" />
                             <h4>Ana Rubio</h4>
                             <h5>Arquitecta</h5>
                             <p>Actual directora de LF Estudio. Egresada de la Universidad de Buenos Aires en el año 1979. Su
@@ -39,7 +39,7 @@ const QuienesSomos = (props) => {
 
                        
                         <div className="persona">
-                            <img src="public/img/nosotros/nosotros2.jpg" alt="Juana Fernandez" />
+                            <img src="img/nosotros/nosotros2.jpg" alt="Juana Fernandez" />
                             <h4>Juana Fernandez</h4>
                             <h5>Arquitecta</h5>
                             <p>Actual directora de LF Estudio. Egresada de la Universidad de Buenos Aires en el año 1979. Su
@@ -49,7 +49,7 @@ const QuienesSomos = (props) => {
 
                         
                         <div className="persona">
-                            <img src="public/img/nosotros/nosotros3.jpg" alt="Francesca Artese" />
+                            <img src="img/nosotros/nosotros3.jpg" alt="Francesca Artese" />
                             <h4>Francesca Artese</h4>
                             <h5>Diseñadora</h5>
                             <p>Actual directora de LF Estudio. Egresada de la Universidad de Buenos Aires en el año 1979. Su
@@ -59,7 +59,7 @@ const QuienesSomos = (props) => {
 
                        
                         <div className="persona">
-                            <img src="public/img/nosotros/nosotros1.jpg" alt="Ezequiel Coscia" />
+                            <img src="img/nosotros/nosotros1.jpg" alt="Ezequiel Coscia" />
                             <h4>Ezequiel Coscia</h4>
                             <h5>Ing. Civil</h5>
                             <p>Actual director de LF Estudio. Egresado de la Universidad de Buenos Aires, su pasión por la ingeniería civil lo llevó a
@@ -68,7 +68,7 @@ const QuienesSomos = (props) => {
 
                        
                         <div className="persona">
-                            <img src="public/img/nosotros/nosotros3.jpg" alt="Renata Fernandez" />
+                            <img src="img/nosotros/nosotros3.jpg" alt="Renata Fernandez" />
                             <h4>Renata Fernandez</h4>
                             <h5>Ing. Civil</h5>
                             <p>Actual directora de LF Estudio. Egresada de la Universidad de Buenos Aires en el año 1985. Su enfoque en la ingeniería civil le
