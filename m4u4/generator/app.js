@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var session = require('express session');
+var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 
@@ -55,7 +55,7 @@ app.get('/salir', function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log(' http://localhost:3000');
+  console.log('http://localhost:3000');
 });
 
 // catch 404 and forward to error handler
