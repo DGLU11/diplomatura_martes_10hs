@@ -59,8 +59,8 @@ const QuienesSomos = (props) => {
 
                        
                         <div className="persona">
-                            <img src="img/nosotros/nosotros1.jpg" alt="Ezequiel Coscia" />
-                            <h4>Ezequiel Coscia</h4>
+                            <img src="img/nosotros/nosotros1.jpg" alt="Ana Coscia" />
+                            <h4>Ana Coscia</h4>
                             <h5>Ing. Civil</h5>
                             <p>Actual director de LF Estudio. Egresado de la Universidad de Buenos Aires, su pasión por la ingeniería civil lo llevó a
                                 fundar el estudio y a liderar proyectos de gran escala en el campo de la construcción.</p>

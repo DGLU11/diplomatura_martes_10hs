@@ -9,18 +9,33 @@
                 </div>
             {{/if}}
 
-            <form action="/admin/novedades/agregar" method="post"> 
+            <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data"> 
+            
+<div class="form-group">
+                   <label>Imagen: <input type="file" name="imagen" id="imagen"/></label>
+                </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Título" name="titulo" required>
+                  <input type="text" class="form-control" placeholder="Nombre de la Obra" name="nombredelaobra" required>
                 </div>
 
                 <div class="mb-3">
-                    <textarea class="form-control" placeholder="Subtítulo" name="subtitulo"  required></textarea>
+                    <textarea class="form-control" placeholder="Descripcion" name="descripcion"  required></textarea>
                 </div> 
 
                 <div class="mb-3">
-                    <textarea class="form-control" placeholder="Cuerpo" name="cuerpo"  required></textarea>
+                    <textarea class="form-control" placeholder="Lugar" name="lugar"  required></textarea>
                 </div>   
+  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Fecha de inicio" name="fechadeinicio"  required></textarea>
+                </div>   
+
+                  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Tipo de Obra" name="tipodeobra"  required></textarea>
+                </div>   
+  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Estado" name="estado"  required></textarea>
+                </div>   
+
 
                 <button type="submit" class="btn btn-primary">Guardar</button>
             </form>

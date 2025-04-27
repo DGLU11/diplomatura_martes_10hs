@@ -6,19 +6,41 @@
         <form method="post" action="/admin/novedades/modificar"> 
         <input type="hidden" value="{{novedad.id}}" name="id">
 
- <div class="form-group">      
-<textarea class="form-control" name="titulo" 
-placeholder="Título">{{novedad.titulo}}</textarea>
-
-</div>
-<div class="form-group">
-          <textarea class="form-control" name="subtitulo"  
-          placeholder="Subtítulo">{{novedad.subtitulo}}</textarea>
+         <div class="form-group">
+          <p>
+            <label>imagen: <input type="file" name="imagen"
+            id="imagen"/></label>
+          </p>
+          <p>
+            <label>imagen: <input type="checkbox" name="img_delete"
+            id="img_delete" value="1"/>Eliminar imagen actual?</label>
+            <input type="hidden" name="img_original"
+            value="{{novedad.img_id}}">
+          </p>
         </div>
 
- <div class="form-group">
-           <textarea class="form-control" name="cuerpo" 
-            placeholder="Cuerpo">{{novedad.cuerpo}}</textarea>
+   <div class="form-group">
+          <textarea class="form-control" name="nombredelaobra" placeholder="Nombre de la obra">{{novedad.nombredelaobra}}</textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="descripcion" placeholder="Descripción">{{novedad.descripcion}}</textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="lugar" placeholder="Lugar">{{novedad.lugar}}</textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="fechadeinicio" placeholder="Fecha de inicio">{{novedad.fechadeinicio}}</textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="tipodeobra" placeholder="Tipo de obra">{{novedad.tipodeobra}}</textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="estado" placeholder="Estado">{{novedad.estado}}</textarea>
         </div>
         <button type="submit" class="btn btn-primary">Modificar</button>
    </form>

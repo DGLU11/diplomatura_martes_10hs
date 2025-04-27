@@ -1,7 +1,5 @@
 require('dotenv').config();
 
-
-
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -11,10 +9,15 @@ var logger = require('morgan');
 
 var session= require('express-session');
 
+var fileUpload= require('express-fileupload');
+
+var cors=require('cors');
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/novedades');
+var apiRouter = require('./routes/api');
 
 var app = express();
 
@@ -35,7 +38,7 @@ app.use(session({
   saveUninitialized: true
 }))
 
-secured: async (req, res, next) => {
+var secured = async (req, res, next) => {
   try {
     if (req.session.id_usuario) {
       console.log(req.session.id_usuario);
@@ -45,14 +48,21 @@ secured: async (req, res, next) => {
     }
   } catch (error) {
     console.log(error);
-      }
+  }
 }
+
+
+app.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/tmp/'
+}));
 
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', adminRouter);
+app.use('/api', cors(), apiRouter);
 
 app.use(function(req, res, next) {
   next(createError(404));

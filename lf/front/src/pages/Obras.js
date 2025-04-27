@@ -17,10 +17,9 @@ const Obras = (props) => {
                         <div className="ficha">
                             <h4>Datos de la Obra</h4>
                             <p>Lugar: Cariló, Prov. de Buenos Aires</p>
-                            <p>Fecha de Inicio: Abril 2023</p>
-                            <p>Fecha de Fin de Obra: Diciembre 2024</p>
-                            <p>Proyecto y Dirección: Juana Fernandez</p>
-                            <p>Diseño de Interiores: Francesca Artese</p>
+                            <p>Fecha de Inicio: Abril 2024</p>
+                            <p>Tipo de Obra:Remodelacion</p>
+                            <p>Estado: En obra</p>
                         </div>
                     </div>
                 </div>
@@ -37,10 +36,9 @@ const Obras = (props) => {
                         <div className="ficha">
                             <h4>Datos de la Obra</h4>
                             <p>Lugar: Recoleta, Capital Federal</p>
-                            <p>Fecha de Inicio: Mayo 2023</p>
-                            <p>Fecha de Fin de Obra: Enero 2024</p>
-                            <p>Proyecto y Dirección: Ana Rubio</p>
-                            <p>Diseño de Interiores: Francesca Artese</p>
+                            <p>Fecha de Inicio: Diciembre 2024</p>
+                            <p>Tipo de Obra:Remodelacion</p>
+                            <p>Estado: En obra</p>
                         </div>
                     </div>
                 </div>
@@ -57,10 +55,9 @@ const Obras = (props) => {
                         <div className="ficha">
                             <h4>Datos de la Obra</h4>
                             <p>Lugar: Ingeniero Maschwitz, Prov. de Buenos Aires</p>
-                            <p>Fecha de Inicio: Abril 2023</p>
-                            <p>Fecha de Fin de Obra: Diciembre 2024</p>
-                            <p>Proyecto y Dirección: Renata Fernandez</p>
-                            <p>Diseño de Interiores: Francesca Artese</p>
+                            <p>Fecha de Inicio: Junio 2023</p>
+                            <p>Tipo de Obra:Remodelacion</p>
+                            <p>Estado: Finalizada</p>
                         </div>
                     </div>
                 </div>
@@ -77,10 +74,9 @@ const Obras = (props) => {
                         <div className="ficha">
                             <h4>Datos de la Obra</h4>
                             <p>Lugar: Los Cardales, Prov. de Buenos Aires</p>
-                            <p>Fecha de Inicio: Abril 2023</p>
-                            <p>Fecha de Fin de Obra: Diciembre 2024</p>
-                            <p>Proyecto y Dirección: Juana Fernandez</p>
-                            <p>Diseño de Interiores: Francesca Artese</p>
+                            <p>Fecha de Inicio: Mayo 2023</p>
+                            <p>Tipo de Obra:Construccion</p>
+                            <p>Estado: Finalizada</p>
                         </div>
                     </div>
                 </div>

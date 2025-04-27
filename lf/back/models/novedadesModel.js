@@ -11,6 +11,7 @@ async function insertNovedad(obj) {
   }
 }
 
+
 async function getNovedades() {
   try {
     const rows = await pool.query('SELECT * FROM novedades');
