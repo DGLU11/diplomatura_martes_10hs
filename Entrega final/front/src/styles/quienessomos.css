@@ -1,0 +1,48 @@
+
+.nuestra historia p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  
+  .personas {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .persona {
+    border: 1px;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+  
+  }
+  
+  .persona img {
+    border-radius: 50%;
+    max-width: 80%;
+  
+  }
+  
+  .persona h5 {
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: medium;
+    font-style: normal;
+    font-style: italic;
+  }
+  
+  .persona h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(124, 68, 16);
+  
+  }
+  
+  .persona p {
+    font-size: 12px;
+    text-align: center;
+  }
